@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+
+
+.font{
+    /*font-family: 'EB Garamond', serif;*/
+    font-family:'EB Garamond', serif;
+    font-weight: 600;
+}
+
+.font-other{
+    font-family:'EB Garamond', serif;
+}
+
+.image-carousel-one{
+    object-fit: contain;
+    height: 400px;
+    
+}
+
+.image-carousel-two{
+    object-fit: contain;
+    height: 400px;
+    
+}
+
+.image-carousel-three{
+    object-fit: contain;
+    height: 400px;
+    
+}
+
+.card{
+    max-width: 18rem;
+}
+
+.cor-borda-card{
+    border-color: #3d0a91;
+}
+
+.size{
+    object-fit: contain;
+    width: 286px;
+    height: 286px;
+}

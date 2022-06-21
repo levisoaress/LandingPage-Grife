@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="./src/styles.css">
+    <title>LEVISTYLE</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light font fixed-top">
+        <div class="container-fluid">
+            <!--<img class="logo" src="./src/images/alufe.png" alt="">-->
+            <a class="navbar-brand ms-4" href="#">LEVISTYLE</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Collections</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Quem somos</a>
+              </li>
+              <!--<li class="nav-item">
+                <a class="nav-link" href="https://api.whatsapp.com/send/?phone=5586999742186&text&app_absent=0">Whatsapp</a>
+              </li>-->
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-contato" href="#">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <main>
+        <section id="carouselExampleCaptions" class="carousel slide carousel-dark " data-bs-interval="3000" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active mude" >
+                    <img src="./src/images/Calvin-Klein.png" class="d-block w-100 image-carousel-one" alt="...">
+                </div>
+                <div class="carousel-item mude">
+                    <img src="./src/images/Lacoste.png" class="d-block w-100 image-carousel-two" alt="...">
+                </div>
+                <div class="carousel-item mude" >
+                    <img src="./src/images/hugoboss.png" class="d-block w-100 image-carousel-three"" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </section>
+
+        <section id="titulo">
+            <h1 class="text-center font fw-normal pt-5">Vista o seu melhor estilo</h1>
+            <p class="text-center font fw-light text-secondary pb-5">Mostre o melhor da sua personalidade</p>
+        </section>
+
+        <section id="collections" class="container-fluid bg-light p-5">
+            <div class="row justify-content-center" id="row">
+                <article class="card col-md-4 m-5 p-0 col-12 cor-borda-card">
+                    <img src="./src/Image-cards/lacoste-shirt.png" class="card-img-top size" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title font">Lacoste</h5>
+                        <p class="card-text font-other">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-secondary">Comprar agora</a>
+                    </div>
+                </article>
+
+                <article class="card col-md-4 m-5 p-0 col-12 cor-borda-card">
+                    <img src="./src/Image-cards/lacoste-shirt-2.png" class="card-img-top size" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title font">Lacoste</h5>
+                        <p class="card-text font-other">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-secondary">Comprar agora</a>
+                    </div>
+                </article>
+
+                <article class="card col-md-4 m-5 p-0 col-12 cor-borda-card">
+                    <img src="./src/Image-cards/calvin-klein-shirt.png" class="card-img-top size " alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title font">Calvin Klein</h5>
+                        <p class="card-text font-other">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-secondary">Comprar agora</a>
+                    </div>
+                </article>
+
+                <article class="card col-md-4 m-5 p-0 col-12 cor-borda-card">
+                    <img src="./src/Image-cards/calvin-klein-shirt-2.png" class="card-img-top size" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title font">Calvin Klein</h5>
+                        <p class="card-text font-other">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-secondary">Comprar agora</a>
+                    </div>
+                </article>
+
+                <article class="card col-md-4 m-5 p-0 col-12 cor-borda-card">
+                    <img src="./src/Image-cards/hugo-boss-shirt.png" class="card-img-top size" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title font">Hugo Boss</h5>
+                        <p class="card-text font-other">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-secondary">Comprar agora</a>
+                    </div>
+                </article>
+
+                <article class="card col-md-4 m-5 p-0 col-12 cor-borda-card">
+                    <img src="./src/Image-cards/hugo-boss-shirt-2.png" class="card-img-top size" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title font">Hugo Boss</h5>
+                        <p class="card-text font-other">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-secondary">Comprar agora</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p class="text-light text-center m-0 text-black font fs-3"> 	
+           LEVISTYLE &#169;</p>
+      </footer>
+
+      <!-- Modal -->
+      <div class="modal fade" id="modal-contato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <dialog class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Entre em contato</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <main class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInput" class="form-label">Nome completo</label>
+                  <input type="text" class="form-control" id="exampleInputText" placeholder="Insira seu nome completo">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Endereço de email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="nome@exemplo.com">
+                  <div id="emailHelp" class="form-text">Nós nunca compartilharemos seu email com ninguém</div>
+                </div>
+                <div class="mb-3">
+                  <label class="form-check-label" for="exampleCheck1">Deixe seu comentário</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea" rows="3" placeholder="Insira aqui seu comentário"></textarea>
+                </div>
+              </form>
+            </main>
+            <footer class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+              <button type="button" class="btn cor-botao">Enviar</button>
+            </footer>
+          </dialog>
+        </div>
+      </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</html>
